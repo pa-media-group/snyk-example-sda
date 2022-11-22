@@ -28,8 +28,8 @@ pipeline {
       steps {
         echo 'Testing Snyk'
         snykSecurity(
-          snykInstallation: 'synk',
-          snykTokenId: 'synk-api',
+          snykInstallation: 'snyk',
+          snykTokenId: 'snyk-api',
           organisation : 'pamg-it-operations'
         )
       }
